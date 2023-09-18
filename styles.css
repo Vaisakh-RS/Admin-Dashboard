@@ -7,33 +7,40 @@ body{
 .container{
     display: grid;
     grid-template-columns: 1fr 4fr;
+    grid-template-rows: 150px 1fr 4fr 1fr
 }
 
 .header{
     display: grid;
     grid-column:2/3;
-    height: 15vh;
+    grid-row:1/2;
     background-color: blueviolet;
+}
+
+.nav{
+    display: grid;
+    grid-row:2/3;
+    grid-column:2/3;
+    background-color: brown;
+}
+.nav h2{
+    margin:10px;
 }
 
 .sidebar{
     display: grid;
     grid-column: 1/2;
-    grid-row: 1/4;
+    grid-row: 1/5;
     background-color: aqua;
-}
-
-.project-heading{
-    margin:30px
 }
 
 .projects{
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
-    grid-column: 2/3;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-row: 3/4;
     margin: 2px;
-    margin: 30px;
+    margin: 10px;
 }
 
 .projects .card{
