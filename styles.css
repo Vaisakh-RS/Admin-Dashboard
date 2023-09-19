@@ -7,7 +7,8 @@ body{
 .container{
     display: grid;
     grid-template-columns: 250px 4fr 1fr;
-    grid-template-rows: 120px 100px 4fr 1fr
+    grid-template-rows: 120px 100px 4fr 1fr;
+    background-color: rgb(14, 41, 84);
 }
 
 .header{
@@ -145,6 +146,22 @@ body{
     border: 2px solid black;
     padding: 10px
 }
+
+.announcements{
+    margin: 40px;
+    padding: 20px;
+   
+}
+
+.trending1{
+    margin-bottom: 40px;
+}
+.trending1,
+.trending2{
+    border: 1px solid black;
+    padding: 10px;
+}
+
 
 .footer{
     grid-column: 1/3;
