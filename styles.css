@@ -7,15 +7,34 @@ body{
 .container{
     display: grid;
     grid-template-columns: 250px 4fr 1fr;
-    grid-template-rows: 150px 1fr 4fr 1fr
+    grid-template-rows: 120px 1fr 4fr 1fr
 }
 
 .header{
-    display: grid;
-    grid-template-rows: 1fr 5fr 1fr;
-    grid-column:2/3;
+    display: flex;
+    grid-column:2/4;
     grid-row:1/2;
     background-color:rgb(31, 110, 140);
+    
+}
+
+.button-34{
+    display: flex;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    justify-content: space-between;
+    margin: 40px;
+    border:none; 
+    border-radius:10px; 
+    padding:10px;
+    min-height:30px; 
+    min-width: 80px;
+    align-items: center;
+    justify-content: center;
+    
+    
+        
 }
 
 .nav{
