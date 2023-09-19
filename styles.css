@@ -7,7 +7,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: 250px 4fr 1fr;
-    grid-template-rows: 120px 1fr 4fr 1fr
+    grid-template-rows: 120px 100px 4fr 1fr
 }
 
 .header{
@@ -63,19 +63,25 @@ body{
   width: 80px;
   height:80px;
   border-radius: 50%;
-
   object-fit: cover;
   object-position: center right;
 }
 
 .nav{
-    display: grid;
+    display: flex;
+    align-items: center;
     grid-row:2/3;
-    grid-column:2/3;
-    background-color: brown;
+    grid-column:2/4;
+    background-color: rgb(132, 167, 161);
 }
+
+.nav .announce-heading{
+    margin-left: auto;
+}
+
+
 .nav h2{
-    margin:10px;
+    margin:100px;
 }
 
 /*Sidebar*/
