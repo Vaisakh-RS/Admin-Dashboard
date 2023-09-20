@@ -20,6 +20,7 @@ body{
     margin: 20px;
     border-radius: 10px;
     
+    
 }
 
 .button-34{
@@ -32,14 +33,14 @@ body{
     border-radius:10px; 
     padding:15px;
     align-items: center;
-    justify-content: center;      
+    justify-content: center; 
+    font-family: 'Raleway', sans-serif;    
 }
 
 .profile-picture{
-    position: relative;
-    left: 1150px;
-    top: 3px;
     align-items: center;
+    margin-left: auto;
+    margin-right: 60px;
 }
 
 .profile-picture img{
@@ -56,7 +57,10 @@ body{
     align-items: center;
     grid-row:2/3;
     grid-column:2/4;
-    background-color: rgb(132, 167, 161);
+    background-color: rgb(58, 61, 61);
+    color: azure;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
 }
 
 .nav .announce-heading{
@@ -74,9 +78,10 @@ body{
     grid-template-rows: 100px 300px 300px;
     grid-column: 1/2;
     grid-row: 1/5;
-    background-color: rgb(46, 138, 153);
+    background-color: rgb(41, 43, 43);
     color: aliceblue;
-    font-size: 25px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .profile .links {
@@ -125,10 +130,12 @@ body{
 }
 
 .projects .card{
-    height: 150px;
+    height: auto;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     border-radius:5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 .announcements{
@@ -136,8 +143,11 @@ body{
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     border-radius:5px;
-   
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
+   
+
 
 .trending1{
     margin-bottom: 40px;
