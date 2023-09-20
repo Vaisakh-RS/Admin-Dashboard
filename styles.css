@@ -8,7 +8,7 @@ body{
     display: grid;
     grid-template-columns: 250px 4fr 1fr;
     grid-template-rows: 120px 100px 4fr 1fr;
-    background-color: rgb(132, 167, 161);
+    /* background-color: rgb(132, 167, 161); */
 }
 
 .header{
@@ -34,24 +34,6 @@ body{
     align-items: center;
     justify-content: center;      
 }
-
-/* .profile-picture {
-    position:relative;
-    overflow: hidden;
-    border-radius: 50%;
-    right:10px;
-    height: 60px;
-    width: 60px;
-}
-
-.profile-picture img {
-    position:absolute;
-    width: 100px;
-    height: 100px;
-    top: 90%;
-    right:-13px;
-    transform:translateY(-50%);
-} */
 
 .profile-picture{
     position: relative;
@@ -144,14 +126,16 @@ body{
 
 .projects .card{
     height: 150px;
-    border: 1px solid black;
-    padding: 10px;
-    border-radius:20%
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius:5px;
 }
 
 .announcements{
     margin: 40px;
     padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius:5px;
    
 }
 
@@ -160,7 +144,8 @@ body{
 }
 .trending1,
 .trending2{
-    border: 1px solid black;
+
     padding: 10px;
 }
+
 
